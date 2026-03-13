@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            table,th,td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>colspan and rowspan</h1>
+
+        <h3>cell that spans two columns:</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th colspan="2">Phone</th>
+            </tr>
+            <tr>
+                <td>Om</td>
+                <td>gabart708@gmail.com</td>
+                <td>8010970751</td>
+                <td>9359802068</td>
+            </tr>
+        </table>
+
+        <h3>Cell that span two rows:</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Om</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>gabart708@gmail.com</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Phone</th>
+                <td>8010370751</td>
+            </tr>
+            <tr>
+                <td>9359802068</td>
+            </tr>
+        </table>
+    </body>
+</html> 
